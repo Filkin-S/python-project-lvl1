@@ -3,14 +3,14 @@ name = "Filkin-S_brain_games"
 version = "0.1.0"
 description = ""
 authors = ["Filkin-S"]
+packages = [
+  { include = "brain_games" },
+]
 
 [tool.poetry.dependencies]
 python = "^3.8"
 
 [tool.poetry.dev-dependencies]
-packages = [
-  { include = "brain_games" },
-]
 
 [build-system]
 requires = ["poetry>=0.12"]
