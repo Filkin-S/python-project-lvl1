@@ -8,14 +8,13 @@ authors = ["Filkin-S"]
 python = "^3.8"
 
 [tool.poetry.dev-dependencies]
+packages = [
+  { include = "brain_games" },
+]
 
 [build-system]
 requires = ["poetry>=0.12"]
 build-backend = "poetry.masonry.api"
-
-packages = [
-  { include = "brain_games" },
-]
 
 [tool.poetry.scripts]
 brain-games = "brain_games.scripts.brain_games:main"
