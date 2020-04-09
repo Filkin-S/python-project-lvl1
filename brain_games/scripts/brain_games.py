@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 """There will be a file desription."""
 
 from brain_games.cli import welcome_user
