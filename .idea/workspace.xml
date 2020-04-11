@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9daf5c2b-3c0a-4359-b1c3-29d0b4af3aca" name="Default Changelist" comment="gitignore created">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/python-project-lvl1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python-project-lvl1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brain_games/cli.py" beforeDir="false" afterPath="$PROJECT_DIR$/brain_games/cli.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/setup.cfg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +40,7 @@
       </console-settings>
     </option>
   </component>
-  <component name="RunManager" selected="Python.brain_games">
+  <component name="RunManager" selected="Python.engine_even">
     <configuration name="brain_games" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python-project-lvl1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -86,12 +83,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="engine_even" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python-project-lvl1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/brain_games" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/brain_games/engine_even.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.brain_games" />
       <item itemvalue="Python.cli" />
+      <item itemvalue="Python.engine_even" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.engine_even" />
         <item itemvalue="Python.brain_games" />
         <item itemvalue="Python.cli" />
       </list>
@@ -146,22 +166,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="560" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1585840469752" />
-    <state width="1259" height="162" key="GridCell.Tab.0.bottom" timestamp="1585900358726">
+    <state width="1259" height="162" key="GridCell.Tab.0.bottom" timestamp="1586509251503">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="162" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585900358726" />
-    <state width="1259" height="162" key="GridCell.Tab.0.center" timestamp="1585900358726">
+    <state width="1259" height="162" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1586509251503" />
+    <state width="1259" height="162" key="GridCell.Tab.0.center" timestamp="1586509251503">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="162" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1585900358726" />
-    <state width="1259" height="162" key="GridCell.Tab.0.left" timestamp="1585900358726">
+    <state width="1259" height="162" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1586509251503" />
+    <state width="1259" height="162" key="GridCell.Tab.0.left" timestamp="1586509251503">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="162" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1585900358726" />
-    <state width="1259" height="162" key="GridCell.Tab.0.right" timestamp="1585900358726">
+    <state width="1259" height="162" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1586509251503" />
+    <state width="1259" height="162" key="GridCell.Tab.0.right" timestamp="1586509251503">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="162" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1585900358726" />
+    <state width="1259" height="162" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1586509251503" />
     <state x="494" y="52" key="RollbackChangesDialog" timestamp="1585898374165">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -170,9 +190,9 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1585898992848" />
-    <state x="341" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1585898307402">
+    <state x="341" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1586509196921">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="341" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1585898307402" />
+    <state x="341" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1586509196921" />
   </component>
 </project>
