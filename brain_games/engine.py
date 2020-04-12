@@ -7,7 +7,7 @@ wrong_tmpl = """
 Let`s try again, {2}!"""
 
 
-def even_game(generate, check):
+def game(generate, check):
     """Brain game engine."""
     user_name = welcome_user()
     wins = 0
