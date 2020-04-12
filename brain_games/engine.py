@@ -3,12 +3,12 @@
 from brain_games.cli import user_answers, welcome_user
 
 wrong_tmpl = """
-"{0}" is wrong answer ;(. Correct answer is {1}.
+"{0}" is wrong answer ;(. Correct answer is "{1}".
 Let`s try again, {2}!"""
 
 
 def game(generate, check):
-    """Brain game engine."""
+    """Template for brain game engine."""
     user_name = welcome_user()
     wins = 0
     while wins < 3:
