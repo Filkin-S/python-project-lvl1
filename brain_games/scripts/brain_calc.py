@@ -1,7 +1,7 @@
-"""This script executes even number brain game ."""
+"""This script executes calculation brain game ."""
 
 from brain_games.engine import game
-from brain_games.games.calc import calc_check, expr_roll
+from brain_games.games.calc import expr_roll
 from brain_games.scripts.brain_games import greet
 
 
@@ -14,7 +14,7 @@ def main():
     """Execute main calculation game script."""
     greet()
     game_intro()
-    game(expr_roll, calc_check)
+    game(expr_roll)
 
 
 if __name__ == '__main__':

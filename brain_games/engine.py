@@ -7,15 +7,14 @@ wrong_tmpl = """
 Let`s try again, {2}!"""
 
 
-def game(generate, check):
+def game(generate):
     """Template for brain game engine."""
     user_name = welcome_user()
     wins = 0
     while wins < 3:
-        question = generate()
+        question, true_answer = generate()
         print('Question: {0}'.format(question))
         answer = user_answers('Your answer: ')
-        true_answer = check(question)
         if answer == true_answer:
             print('Correct!')
             wins += 1

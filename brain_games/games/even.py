@@ -5,7 +5,7 @@ import random
 
 def number_roll():
     number = random.randint(1, 100)
-    return number
+    return number, even_check(number)
 
 
 def even_check(number):
