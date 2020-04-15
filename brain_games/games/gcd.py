@@ -9,7 +9,7 @@ def gcd_numbers():
     return '{0} {1}'.format(num_one, num_two), str(gcd(num_one, num_two))
 
 
-def gcd(a, b):  # noqa: WPS111
+def gcd(a, b):
     while b:
-        a, b = b, a % b  # noqa: WPS111
+        a, b = b, a % b
     return a
