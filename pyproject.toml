@@ -7,7 +7,7 @@ packages = [
   { include = "brain_games" },
 ]
 classifiers = [
-    Topic :: Games/Entertainment
+    "Topic :: Games/Entertainment"
 ]
 repository = "https://test.pypi.org/project/filkin-s-brain-games/"
 
