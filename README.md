@@ -6,3 +6,4 @@
 
 #### Installation:
 ``` pip install --index-url https://test.pypi.org/simple/ filkin-s-brain-games --extra-index-url https://pypi.org/simple/```
+[![asciicast](https://asciinema.org/a/5gqiGvcd2EkjiLkAZ64P07cty.svg)](https://asciinema.org/a/5gqiGvcd2EkjiLkAZ64P07cty)
