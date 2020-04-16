@@ -1,11 +1,15 @@
 [tool.poetry]
 name = "Filkin-S_brain_games"
 version = "0.5.0"
-description = ""
-authors = ["Filkin-S"]
+description = "Brain Games - a set of simple console games."
+authors = ["Filkin Semion <fsp1988@ya.ru>"]
 packages = [
   { include = "brain_games" },
 ]
+classifiers = [
+    Topic :: Games/Entertainment
+]
+repository = "https://test.pypi.org/project/filkin-s-brain-games/"
 
 [tool.poetry.dependencies]
 python = "^3.6"
