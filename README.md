@@ -6,4 +6,30 @@
 
 #### Installation:
 ``` pip install --index-url https://test.pypi.org/simple/ filkin-s-brain-games --extra-index-url https://pypi.org/simple/```
+
 [![asciicast](https://asciinema.org/a/5gqiGvcd2EkjiLkAZ64P07cty.svg)](https://asciinema.org/a/5gqiGvcd2EkjiLkAZ64P07cty)
+
+### Brain "Even Number?" Game
+```brain-even```
+
+[![asciicast](https://asciinema.org/a/5gqiGvcd2EkjiLkAZ64P07cty.svg)](https://asciinema.org/a/5gqiGvcd2EkjiLkAZ64P07cty)
+
+### Brain "Calculator" Game
+```brain-calc```
+
+[![asciicast](https://asciinema.org/a/snv1iuP6DLmnSGE6NXh6wGWbY.svg)](https://asciinema.org/a/snv1iuP6DLmnSGE6NXh6wGWbY)
+
+### Brain "Greatest Common Divisor" Game
+```brain-gcd```
+
+[![asciicast](https://asciinema.org/a/lvjDCWsCjGEMWaUki47zQKweC.svg)](https://asciinema.org/a/lvjDCWsCjGEMWaUki47zQKweC)
+
+### Brain "Progression" Game
+```brain-progression```
+
+[![asciicast](https://asciinema.org/a/QwBAocrCJjt2k4Q88FOLorEdH.svg)](https://asciinema.org/a/QwBAocrCJjt2k4Q88FOLorEdH)
+
+### Brain "Prime Number?" Game
+```brain-prime```
+
+[![asciicast](https://asciinema.org/a/ACsCdAD7wF05xZ58IlUtHw1WA.svg)](https://asciinema.org/a/ACsCdAD7wF05xZ58IlUtHw1WA)
