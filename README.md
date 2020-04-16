@@ -12,7 +12,7 @@
 ### Brain "Even Number?" Game
 ```brain-even```
 
-[![asciicast](https://asciinema.org/a/5gqiGvcd2EkjiLkAZ64P07cty.svg)](https://asciinema.org/a/5gqiGvcd2EkjiLkAZ64P07cty)
+[![asciicast](https://asciinema.org/a/PtSgrCqlxMn1i1iQtNhl5dOSn.svg)](https://asciinema.org/a/PtSgrCqlxMn1i1iQtNhl5dOSn)
 
 ### Brain "Calculator" Game
 ```brain-calc```
