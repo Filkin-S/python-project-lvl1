@@ -1,14 +1,20 @@
 """Logic for calculation game."""
 
+import operator
 import random
 
+RULES = 'What is the result of the expression?'
+OPERATIONS = (
+    ('+', operator.add),
+    ('-', operator.sub),
+    ('*', operator.mul),
+)
 
-def expr_roll():
-    ind = random.randint(1, 3)
-    num_one = random.randint(1, 100)
-    num_two = random.randint(1, 100)
-    if ind == 1:
-        return '{0} + {1}'.format(num_one, num_two), str(num_one + num_two)
-    elif ind == 2:
-        return '{0} - {1}'.format(num_one, num_two), str(num_one - num_two)
-    return '{0} * {1}'.format(num_one, num_two), str(num_one * num_two)
+
+def game():
+    indicator, operation = random.choice(OPERATIONS)
+    number_one = random.randint(1, 100)
+    number_two = random.randint(1, 100)
+    return '{0} {1} {2}'.format(
+        number_one, indicator, number_two,
+    ), str(operation(number_one, number_two))

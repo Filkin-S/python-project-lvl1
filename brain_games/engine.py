@@ -1,25 +1,25 @@
 """Main engine for brain games."""
 
-from brain_games.cli import user_answers, welcome_user
+from brain_games.cli import ask, welcome_user
 
-wrong_tmpl = """
+WRONG_SAMPLE = """
 "{0}" is wrong answer ;(. Correct answer is "{1}".
 Let`s try again, {2}!"""
 
 
-def game(generate):
+def run(module, rounds=3):
     """Template for brain game engine."""
+    print('Welcome to the Brain Games!')
+    print(module.RULES)
     user_name = welcome_user()
-    wins = 0
-    while wins < 3:
-        question, true_answer = generate()
+    while rounds > 0:
+        question, true_answer = module.game()
         print('Question: {0}'.format(question))
-        answer = user_answers('Your answer: ')
-        if answer == true_answer:
-            print('Correct!')
-            wins += 1
-        else:
-            print(wrong_tmpl.format(answer, true_answer, user_name))
+        answer = ask('Your answer: ')
+        if answer != true_answer:
+            print(WRONG_SAMPLE.format(answer, true_answer, user_name))
             break
-    if wins == 3:
+        print('Correct!')
+        rounds -= 1
+    else:
         print('Congratulations!')

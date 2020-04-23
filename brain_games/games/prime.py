@@ -1,9 +1,12 @@
 """Logic for prime number game."""
 
 import random
+from math import sqrt
+
+RULES = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
-def number_roll():
+def game():
     number = random.randint(1, 1000)
     answer = 'yes' if is_prime(number) else 'no'
     return number, answer
@@ -14,9 +17,9 @@ def is_prime(number):
         return number > 1
     elif number % 2 == 0 or number % 3 == 0:
         return False
-    i = 5
-    while i * i <= number:
-        if number % i == 0 or number % (i + 2) == 0:
+    divisor = 5
+    while divisor <= sqrt(number):
+        if number % divisor == 0 or number % (divisor + 2) == 0:
             return False
-        i += 6
+        divisor += 6
     return True

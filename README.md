@@ -4,7 +4,7 @@
 [![Build Status](https://travis-ci.com/Filkin-S/python-project-lvl1.svg?branch=master)](https://travis-ci.com/Filkin-S/python-project-lvl1)
 
 #### Installation:
-``` pip install --index-url https://test.pypi.org/simple/ filkin-s-brain-games --extra-index-url https://pypi.org/simple/```
+```pip install --index-url=https://test.pypi.org/simple/ --extra-index-url=https://pypi.org/simple/ filkin-s-brain-games```
 
 [![asciicast](https://asciinema.org/a/5gqiGvcd2EkjiLkAZ64P07cty.svg)](https://asciinema.org/a/5gqiGvcd2EkjiLkAZ64P07cty)
 

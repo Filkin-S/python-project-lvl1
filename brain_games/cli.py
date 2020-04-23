@@ -1,4 +1,4 @@
-"""There will be a file desription."""
+"""Command Line Interface functions."""
 
 import prompt
 
@@ -10,6 +10,6 @@ def welcome_user():
     return name
 
 
-def user_answers(input_text):
+def ask(input_text):
     user_answer = prompt.string(input_text)
     return user_answer

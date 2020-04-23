@@ -2,13 +2,15 @@
 
 import random
 
+RULES = 'Answer "yes" if number even otherwise answer "no".'
 
-def number_roll():
+
+def game():
     number = random.randint(1, 100)
-    return number, even_check(number)
+    return number, 'yes' if is_even(number) else 'no'
 
 
-def even_check(number):
+def is_even(number):
     if number % 2 == 0:
-        return 'yes'
-    return 'no'
+        return True
+    return False

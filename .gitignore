@@ -141,4 +141,7 @@ cython_debug/*.egg-info
 __pycache__
 dist/
 *.pyc
+
+# Else
 .venv/
+.idea/

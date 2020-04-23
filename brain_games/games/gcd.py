@@ -2,14 +2,16 @@
 
 import random
 
+RULES = 'Find the greatest common divisor of given numbers.'
 
-def gcd_numbers():
+
+def game():
     num_one = random.randint(1, 100)
     num_two = random.randint(1, 100)
-    return '{0} {1}'.format(num_one, num_two), str(gcd(num_one, num_two))
+    return '{0} {1}'.format(num_one, num_two), str(find_gcd(num_one, num_two))
 
 
-def gcd(a, b):
-    while b:
-        a, b = b, a % b
-    return a
+def find_gcd(first_num, second_num):
+    while second_num:
+        first_num, second_num = second_num, first_num % second_num
+    return first_num
