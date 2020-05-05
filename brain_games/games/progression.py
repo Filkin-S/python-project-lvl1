@@ -5,7 +5,7 @@ import random
 RULES = 'What number is missing in the progression?'
 
 
-def game():  # noqa: WPS210
+def play_round():  # noqa: WPS210
     step = random.randint(1, 10)
     number = random.randint(1, 10)
     miss = random.randint(0, 9)

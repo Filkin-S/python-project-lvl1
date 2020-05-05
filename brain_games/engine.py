@@ -7,13 +7,13 @@ WRONG_SAMPLE = """
 Let`s try again, {2}!"""
 
 
-def run(module, rounds=3):
+def run(game, rounds=3):
     """Template for brain game engine."""
     print('Welcome to the Brain Games!')
-    print(module.RULES)
+    print(game.RULES)
     user_name = welcome_user()
     while rounds > 0:
-        question, true_answer = module.game()
+        question, true_answer = game.play_round()
         print('Question: {0}'.format(question))
         answer = ask('Your answer: ')
         if answer != true_answer:

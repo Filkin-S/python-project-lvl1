@@ -11,7 +11,7 @@ OPERATIONS = (
 )
 
 
-def game():
+def play_round():
     indicator, operation = random.choice(OPERATIONS)
     number_one = random.randint(1, 100)
     number_two = random.randint(1, 100)
